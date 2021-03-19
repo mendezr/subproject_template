@@ -1,0 +1,6 @@
+{
+    "author_name": "Your name (or your organization/company/team)",
+    "project_name": "Short project name",
+    "directory_name": "proj_{% now 'local', '%Y%m%d' %}_{{ cookiecutter.author_name.split()[0][0].upper() + cookiecutter.author_name.split()[1][0].upper() }}-{{ cookiecutter.project_name }}",
+    "description": "A short description of the project."
+}
